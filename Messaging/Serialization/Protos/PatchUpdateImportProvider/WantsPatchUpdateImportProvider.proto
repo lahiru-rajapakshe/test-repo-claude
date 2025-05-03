@@ -1,0 +1,13 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/struct.proto";
+
+message WantsPatchUpdateImportProvider {
+  string id = 1;
+  google.protobuf.StringValue name = 2;
+  google.protobuf.ListValue tenants = 3;
+  google.protobuf.BoolValue open = 4;
+  google.protobuf.BoolValue enabled = 5;
+  google.protobuf.StringValue type = 6;
+}

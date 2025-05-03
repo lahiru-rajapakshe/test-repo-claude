@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Common.Infrastructure.Lib</id>
+    <version>1.0.84</version>
+    <title>Common.Infrastructure</title>
+    <authors>Data!</authors>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <readme>README.md</readme>
+    <description>Package Description</description>
+    <repository type="git" commit="7eea6e30ec758afd908a3819a0501a5e9484400b" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Confluent.Kafka" version="2.6.1" exclude="Build,Analyzers" />
+        <dependency id="Confluent.SchemaRegistry" version="2.6.1" exclude="Build,Analyzers" />
+        <dependency id="Confluent.SchemaRegistry.Serdes.Protobuf" version="2.6.1" exclude="Build,Analyzers" />
+        <dependency id="Google.Protobuf" version="3.29.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Caching.Abstractions" version="9.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="9.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting.Abstractions" version="9.0.0" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver" version="2.29.0" exclude="Build,Analyzers" />
+        <dependency id="Polly" version="8.5.0" exclude="Build,Analyzers" />
+        <dependency id="Polly.Contrib.WaitAndRetry" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Polly.Extensions.Http" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="StackExchange.Redis" version="2.8.22" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\User\Desktop\projects\siMedia\repos\common-infrastructure\Common.Infrastructure\bin\Debug\net8.0\Common.Infrastructure.dll" target="lib\net8.0\Common.Infrastructure.dll" />
+    <file src="C:\Users\User\Desktop\projects\siMedia\repos\common-infrastructure\Common.Infrastructure\LICENSE.txt" target="\LICENSE.txt" />
+    <file src="C:\Users\User\Desktop\projects\siMedia\repos\common-infrastructure\README.md" target="\README.md" />
+  </files>
+</package>

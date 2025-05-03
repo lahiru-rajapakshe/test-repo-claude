@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CompletedUpdateImportProvider {
+  bool success = 1;
+  repeated string invalid_tenant_ids = 2;
+  string id = 3;
+}

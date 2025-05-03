@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package Common.Messaging.Serialization.Models;
+
+message CompletedTenants {
+  string id = 1;
+  string name = 2;
+}
+
+message CompletedGetTenants {
+  repeated CompletedTenants tenants = 1;
+  int32 page = 2;
+  int32 pageSize = 3;
+  int32 total = 4;
+}

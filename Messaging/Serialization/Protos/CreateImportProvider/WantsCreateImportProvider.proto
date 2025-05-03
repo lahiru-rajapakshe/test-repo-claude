@@ -1,0 +1,10 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto"; // Import timestamp for date/time fields
+
+message WantsCreateImportProvider {
+  string name = 1;
+  repeated string tenants = 2;
+  bool open = 4;
+  bool enabled = 5;
+  string type = 6;
+}

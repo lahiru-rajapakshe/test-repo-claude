@@ -1,0 +1,7 @@
+    syntax = "proto3";
+    
+    package Common.Messaging.Serialization.Models;
+    
+    message WantsGenerateApiKey {
+        string user_id = 1;
+    }

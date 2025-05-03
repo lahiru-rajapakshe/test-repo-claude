@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>$(AssemblyName).Lib</PackageId>
+		<Title>Common.Infrastructure</Title>
+		<Authors>Data!</Authors>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl></RepositoryUrl>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<VersionPrefix>1.0.85</VersionPrefix>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Confluent.Kafka" Version="2.6.1" />
+		<PackageReference Include="Confluent.SchemaRegistry" Version="2.6.1" />
+		<PackageReference Include="Confluent.SchemaRegistry.Serdes.Protobuf" Version="2.6.1" />
+		<PackageReference Include="Google.Protobuf" Version="3.29.0" />		
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.0" />
+		<PackageReference Include="MongoDB.Driver" Version="2.29.0" />
+		<PackageReference Include="Polly" Version="8.5.0" />
+		<PackageReference Include="Polly.Contrib.WaitAndRetry" Version="1.1.1" />
+		<PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />	
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="9.0.0" />
+		<PackageReference Include="StackExchange.Redis" Version="2.8.22" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="LICENSE.txt">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>

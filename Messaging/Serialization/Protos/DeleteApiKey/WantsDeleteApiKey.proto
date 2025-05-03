@@ -1,0 +1,8 @@
+    syntax = "proto3";
+    
+    package Common.Messaging.Serialization.Models;
+    
+    message WantsDeleteApiKey {
+        string id = 1;
+    }
+    

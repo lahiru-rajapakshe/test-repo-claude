@@ -1,0 +1,9 @@
+    syntax = "proto3";
+    
+    package Common.Messaging.Serialization.Models;
+    
+    message CompletedUpdateApiKey {
+        string id = 1;
+        string api_key = 2;
+    }
+    

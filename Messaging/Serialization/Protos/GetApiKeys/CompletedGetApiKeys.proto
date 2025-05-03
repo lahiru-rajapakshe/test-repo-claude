@@ -1,0 +1,10 @@
+message CompletedGetApiKeys {
+    repeated ApiKeyInfo api_keys = 1;
+    
+    message ApiKeyInfo {
+        required string id = 1;
+        required string api_key = 2;
+        required string user_id = 3;
+    }
+}
+

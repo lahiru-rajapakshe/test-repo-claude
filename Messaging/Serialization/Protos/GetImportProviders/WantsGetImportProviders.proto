@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package Common.Messaging.Serialization.Models;
+import "google/protobuf/wrappers.proto";
+message WantsGetImportProviders {
+  google.protobuf.StringValue tenantId= 1;
+}
+    
